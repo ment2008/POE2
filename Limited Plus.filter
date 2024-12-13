@@ -39,7 +39,7 @@ SetBackgroundColor 255 0 255 250
 SetBorderColor 0 0 0
 
 Show
-BaseType "Divine Orb"
+BaseType "Divine Orb" "Greater Jeweller's Orb" "Perfect Jeweller's Orb"
 MinimapIcon 0 Purple Star
 PlayEffect Purple
 SetFontSize 50
@@ -240,15 +240,6 @@ Class "Rings" "Amulets" "Belts"
 SetBackgroundColor 0 0 0 250
 SetBorderColor 0 0 0 250
 SetFontSize 50
-
-Show
-Class = Waystones
-MapTier >= 10
-MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 0 255 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 5 150
 
 Show
 Class = Waystones
