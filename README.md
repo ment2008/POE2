@@ -1,3 +1,6 @@
+
+![test]([http://url/to/img.png](https://i.gyazo.com/aef4004432265a822dde5315cdc4bed0.png))
+
 Download and Extract Loot Filters
 
 Download your preferred loot filters from a trusted source.
