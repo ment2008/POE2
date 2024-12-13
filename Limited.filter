@@ -1,5 +1,5 @@
 # POE 2 Ment's Item Filters Limited #
-# 
+# https://www.pathofexile.com/account/view-profile/MENT-6466/item-filters
 #
 ### 
 ### 
@@ -49,7 +49,7 @@ SetBorderColor 0 0 0
 
 Show
 Class = Currency
-BaseType = "Regal Orb" "Orb of Alchemy" "Exalted Orb" "Jeweller" "Orb of Annulment"
+BaseType = "Regal Orb" "Orb of Alchemy" "Exalted Orb" "Jeweller" "Orb of Annulment" "Orb of Chance"
 PlayEffect Yellow
 SetFontSize 50
 SetTextColor 255 255 0 255
