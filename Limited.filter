@@ -37,6 +37,7 @@ SetFontSize 50
 SetTextColor 255 255 255 250
 SetBackgroundColor 255 0 255 250
 SetBorderColor 0 0 0
+PlayAlertSound 8 200
 
 Show
 BaseType "Divine Orb" "Greater Jeweller's Orb" "Perfect Jeweller's Orb"
@@ -46,6 +47,7 @@ SetFontSize 50
 SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
 SetBorderColor 0 0 0
+PlayAlertSound 8 200
 
 Show
 Class = Currency
@@ -55,6 +57,7 @@ SetFontSize 50
 SetTextColor 255 255 0 255
 SetBorderColor 100 150 255 255
 SetBackgroundColor 255 255 255 150
+PlayAlertSound 11 100
 
 Show
 BaseType "Orb of Alteration" "Blacksmith's Whetstone" "Armourer's Scrap"
@@ -240,6 +243,46 @@ Class "Rings" "Amulets" "Belts"
 SetBackgroundColor 0 0 0 250
 SetBorderColor 0 0 0 250
 SetFontSize 50
+
+Show
+Rarity = Unique
+Class = Waystones
+#MapTier >= 15
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+SetTextColor 255 255 255 250
+PlayAlertSound 6 150
+
+Show
+Rarity = Rare
+Class = Waystones
+#MapTier >= 15
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+SetTextColor 255 255 255 250
+PlayAlertSound 6 150
+
+Show
+Rarity = Magic
+Class = Waystones
+#MapTier >= 15
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+SetTextColor 255 255 255 250
+PlayAlertSound 6 150
+
+Show
+Rarity = Normal
+Class = Waystones
+#MapTier >= 15
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+SetTextColor 255 255 255 250
+PlayAlertSound 6 150
 
 Show
 Class = Waystones
