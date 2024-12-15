@@ -25,4 +25,11 @@ If the filters are not visible, restart the game client and check again.
 
 * Limited Filter: Designed for those who want a cleaner screen while focusing only on the best loot. It hides white gear, flasks, and other less important items, so you can spend more time fighting and less time sorting through junk. Trust me, it’s a game-changer for those hectic moments!
 
-* This advanced filter is designed for players who value efficiency and a clutter-free screen. It goes beyond the basics by hiding white gear, flasks, items with sockets, Scrolls of Wisdom, and even gear with quality. Only the most valuable drops and best item bases will remain visible, ensuring you can focus entirely on the action. Future updates will keep highlighting top-tier bases, making this filter perfect for streamlined gameplay in maps and endgame content!
+* Limited Plus Filter: This advanced filter is designed for players who value efficiency and a clutter-free screen. It goes beyond the basics by hiding white gear, flasks, items with sockets, Scrolls of Wisdom, and even gear with quality. Only the most valuable drops and best item bases will remain visible, ensuring you can focus entirely on the action. Future updates will keep highlighting top-tier bases, making this filter perfect for streamlined gameplay in maps and endgame content!
+
+* Uber Filter: Uber Filter: Precision for the Pros!
+Take your gameplay to the next level with this ultra-streamlined filter, built for experienced players who demand nothing but the best. The Uber Filter is meticulously designed to cut out the clutter and elevate your endgame efficiency:
+- Maps: Only tier 10+ maps are visible.
+- Flasks & Gems: Hides quality flasks and uncut support gems.
+- Icons: No more gold minimap icons for cleaner visuals.
+- ES Bases: Highlights top energy shield bases (item level 78-80).
