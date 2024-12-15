@@ -37,6 +37,7 @@ SetFontSize 50
 SetTextColor 255 255 255 250
 SetBackgroundColor 255 0 255 250
 SetBorderColor 0 0 0
+PlayAlertSound 8 200
 
 Show
 BaseType "Divine Orb" "Greater Jeweller's Orb" "Perfect Jeweller's Orb"
@@ -46,6 +47,7 @@ SetFontSize 50
 SetTextColor 0 0 0
 SetBackgroundColor 255 0 255 250
 SetBorderColor 0 0 0
+PlayAlertSound 8 200
 
 Show
 Class = Currency
@@ -55,6 +57,7 @@ SetFontSize 50
 SetTextColor 255 255 0 255
 SetBorderColor 100 150 255 255
 SetBackgroundColor 255 255 255 150
+PlayAlertSound 11 100
 
 Show
 BaseType "Orb of Alteration" "Blacksmith's Whetstone" "Armourer's Scrap"
@@ -240,6 +243,73 @@ Class "Rings" "Amulets" "Belts"
 SetBackgroundColor 0 0 0 250
 SetBorderColor 0 0 0 250
 SetFontSize 50
+
+Show
+Class = Waystones
+BaseType == "Waystone (Tier 11)" "Waystone (Tier 12)" "Waystone (Tier 13)" "Waystone (Tier 14)" "Waystone (Tier 15)"
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+SetTextColor 255 255 255 250
+PlayAlertSound 6 150
+
+Show
+Class = Waystones
+BaseType == "Waystone (Tier 6)" "Waystone (Tier 7)" "Waystone (Tier 8)" "Waystone (Tier 9)" "Waystone (Tier 10)"
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+SetTextColor 255 255 255 250
+PlayAlertSound 6 150
+
+Show
+Class = Waystones
+BaseType == "Waystone (Tier 1)" "Waystone (Tier 2)" "Waystone (Tier 3)" "Waystone (Tier 4)" "Waystone (Tier 5)"
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+SetTextColor 255 255 255 250
+PlayAlertSound 6 150
+
+Show
+Rarity = Unique
+Class = Waystones
+#MapTier >= 15
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+SetTextColor 255 255 255 250
+PlayAlertSound 6 150
+
+Show
+Rarity = Rare
+Class = Waystones
+#MapTier >= 15
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+SetTextColor 255 255 255 250
+PlayAlertSound 6 150
+
+Show
+Rarity = Magic
+Class = Waystones
+#MapTier >= 15
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+SetTextColor 255 255 255 250
+PlayAlertSound 6 150
+
+Show
+Rarity = Normal
+Class = Waystones
+#MapTier >= 15
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+SetTextColor 255 255 255 250
+PlayAlertSound 6 150
 
 Show
 Class = Waystones
