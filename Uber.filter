@@ -50,6 +50,16 @@ SetBorderColor 0 0 0
 PlayAlertSound 8 200
 
 Show
+BaseType "Cowardly Fate" "Deadly Fate" "Victorious Fate"
+MinimapIcon 0 Purple Star
+PlayEffect Purple
+SetFontSize 50
+SetTextColor 255 100 0 255
+SetBorderColor 100 100 255 255
+SetBackgroundColor 255 255 255 150
+PlayAlertSound 12 200
+
+Show
 Class = Currency
 BaseType = "Regal Orb" "Orb of Alchemy" "Exalted Orb" "Jeweller" "Orb of Annulment" "Orb of Chance"
 PlayEffect Yellow
