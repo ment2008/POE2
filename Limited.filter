@@ -342,7 +342,7 @@ SetFontSize 30
 SetBorderColor 255 255 255 250
 
 Hide
-Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces"
+Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers"
 Rarity = Magic
 Quality >= 1
 SetFontSize 40
@@ -350,13 +350,13 @@ SetTextColor 136 136 255 250
 SetBorderColor 0 0 255 250
 
 Hide
-Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces"
+Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers"
 Rarity = Magic
 SetFontSize 30
 SetTextColor 136 136 255 100
 
 Hide
-Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces"
+Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers"
 Rarity = Normal
 Quality >= 1
 SetFontSize 30
@@ -364,7 +364,7 @@ SetTextColor 255 255 255 250
 SetBorderColor 255 255 255 250
 
 Hide
-Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces"
+Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers"
 Rarity = Normal
 SetFontSize 30
 SetTextColor 255 255 255 100
