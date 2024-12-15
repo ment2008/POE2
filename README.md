@@ -31,7 +31,11 @@ If the filters are not visible, restart the game client and check again.
 Take your gameplay to the next level with this ultra-streamlined filter, built for experienced players who demand nothing but the best. The Uber Filter is meticulously designed to cut out the clutter and elevate your endgame efficiency:
 
   -Maps: Only tier 10+ maps are visible.
+  
   -Flasks & Gems: Hides quality flasks and uncut support gems.
+  
   -Icons: No more gold minimap icons for cleaner visuals.
+  
   -ES Bases: Highlights top energy shield bases (item level 78-80).
+  
   
