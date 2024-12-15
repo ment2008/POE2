@@ -258,7 +258,7 @@ BaseType == "Waystone (Tier 6)" "Waystone (Tier 7)" "Waystone (Tier 8)" "Wayston
 SetFontSize 50
 SetBorderColor 255 0 0 255
 SetTextColor 255 255 255 250
-PlayAlertSound 6 150
+#PlayAlertSound 6 150
 
 Hide
 Class = Waystones
@@ -267,7 +267,7 @@ BaseType == "Waystone (Tier 1)" "Waystone (Tier 2)" "Waystone (Tier 3)" "Wayston
 SetFontSize 50
 SetBorderColor 255 0 0 255
 SetTextColor 255 255 255 250
-PlayAlertSound 6 150
+#PlayAlertSound 6 150
 
 Show
 Class = Waystones
