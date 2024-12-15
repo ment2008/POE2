@@ -34,7 +34,7 @@ If the filters are not visible, restart the game client and check again.
 * Uber Filter: Uber Filter: Precision for the Pros!
 Take your gameplay to the next level with this ultra-streamlined filter, built for experienced players who demand nothing but the best. The Uber Filter is meticulously designed to cut out the clutter and elevate your endgame efficiency:
 
-  -Maps: Only tier 10+ maps are visible.
+  -Maps: Only tier 10+ maps are visible (Rare still bugged)
   
   -Flasks & Gems: Hides quality flasks and uncut support gems.
   
