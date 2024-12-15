@@ -359,6 +359,16 @@ MinimapIcon 1 Yellow Square
 PlayEffect Yellow
 
 Show
+BaseType "Expedition Logbook"
+PlayEffect Green
+MinimapIcon 1 Yellow Star
+PlayAlertSound 4 200
+SetFontSize 50
+SetTextColor 255 255 150 250
+SetBackgroundColor 255 0 255 130
+SetBorderColor 255 255 150
+
+Show
 Class = Relics
 SetFontSize 50
 SetBackgroundColor 0 0 0 250
