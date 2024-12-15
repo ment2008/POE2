@@ -140,6 +140,16 @@ SetBackgroundColor 255 255 204 150
 SetBorderColor 255 255 255 250
 
 Show
+Class = Map Fragments
+PlayEffect Red
+MinimapIcon 0 Red Circle
+SetFontSize 50
+SetTextColor 200 0 0 250
+SetBackgroundColor 255 255 204 150
+SetBorderColor 255 255 255 250
+PlayAlertSound 7 200
+
+Show
 BaseType = Uncut Support Gem
 MinimapIcon 0 Yellow Circle
 SetFontSize 50
