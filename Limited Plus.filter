@@ -195,34 +195,78 @@ MinimapIcon 0 Red Circle
 SetFontSize 50
 SetTextColor 0 200 100 150
 
-Show
-Sockets = 2
-Rarity = Rare
-SetFontSize 50
-SetTextColor 255 255 119 250
-SetBorderColor 255 255 0 250
-MinimapIcon 0 Red Circle
-SetFontSize 50
-SetTextColor 0 200 100 150
+#Show
+#Sockets = 2
+#Rarity = Rare
+#SetFontSize 50
+#SetTextColor 255 255 119 250
+#SetBorderColor 255 255 0 250
+#MinimapIcon 0 Red Circle
+#SetFontSize 50
+#SetTextColor 0 200 100 150
+
+#Show
+#Sockets = 1
+#Rarity = Rare
+#SetFontSize 50
+#SetTextColor 255 255 119 250
+#SetBorderColor 255 255 0 250
+#MinimapIcon 0 Red Circle
+#SetFontSize 50
+#SetTextColor 0 200 100 150
 
 Show
-Sockets = 1
-Rarity = Rare
+Rarity = Normal
+BaseType = "Expert Feathered Tiara"
+ItemLevel >= 79
 SetFontSize 50
-SetTextColor 255 255 119 250
-SetBorderColor 255 255 0 250
-MinimapIcon 0 Red Circle
+SetTextColor 255 255 255 250
+SetBorderColor 255 0 0 250
+
+Show
+Rarity = Normal
+BaseType = "Expert Hexer's Robe" "Expert Intricate Gloves"
+ItemLevel >= 79
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBorderColor 255 0 0 250
+
+Show
+Rarity = Normal
+BaseType = "Rattling Sceptre"
+ItemLevel >= 78
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBorderColor 255 0 0 250
+
+Hide
+Sockets = 2
+Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
+Rarity = Magic
+#MinimapIcon 0 Red Circle
 SetFontSize 50
 SetTextColor 0 200 100 150
 
 Hide
 Sockets = 2
+Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
+Rarity = Normal
 #MinimapIcon 0 Red Circle
 SetFontSize 50
 SetTextColor 0 200 100 150
 
 Hide
 Sockets = 1
+Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
+Rarity = Magic
+#MinimapIcon 0 Red Circle
+SetFontSize 50
+SetTextColor 0 200 100 150
+
+Hide
+Sockets = 1
+Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
+Rarity = Normal
 #MinimapIcon 0 Red Circle
 SetFontSize 50
 SetTextColor 0 200 100 150
@@ -401,30 +445,6 @@ Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand M
 Rarity = Magic
 SetFontSize 30
 SetTextColor 136 136 255 100
-
-Show
-Rarity = Normal
-BaseType = "Expert Feathered Tiara"
-ItemLevel >= 79
-SetFontSize 50
-SetTextColor 255 255 255 250
-SetBorderColor 255 0 0 250
-
-Show
-Rarity = Normal
-BaseType = "Expert Hexer's Robe" "Expert Intricate Gloves"
-ItemLevel >= 79
-SetFontSize 50
-SetTextColor 255 255 255 250
-SetBorderColor 255 0 0 250
-
-Show
-Rarity = Normal
-BaseType = "Rattling Sceptre"
-ItemLevel >= 78
-SetFontSize 50
-SetTextColor 255 255 255 250
-SetBorderColor 255 0 0 250
 
 Hide
 Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
