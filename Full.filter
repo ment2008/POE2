@@ -94,6 +94,16 @@ SetBorderColor 255 0 0 250
 
 Show
 Class = Socketable
+BaseType "Rune"
+MinimapIcon 1 Yellow Circle
+PlayEffect Yellow Temp
+SetFontSize 50
+SetTextColor 51 255 255 200
+SetBackgroundColor 51 153 255 120
+SetBorderColor 255 255 204 150
+
+Show
+Class = Socketable
 MinimapIcon 0 Red Circle
 PlayEffect Red
 SetFontSize 50
