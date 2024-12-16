@@ -185,25 +185,25 @@ SetFontSize 50
 SetTextColor 50 150 100 250
 SetBorderColor 255 255 255 250
 
-Show
-Sockets = 3
-Rarity = Rare
-SetFontSize 50
-SetTextColor 255 255 119 250
-SetBorderColor 255 255 0 250
-MinimapIcon 0 Red Circle
-SetFontSize 50
-SetTextColor 0 200 100 150
+#Show
+#Sockets = 3
+#Rarity = Rare
+#SetFontSize 50
+#SetTextColor 255 255 119 250
+#SetBorderColor 255 255 0 250
+#MinimapIcon 0 Red Circle
+#SetFontSize 50
+#SetTextColor 0 200 100 150
 
-Show
-Sockets = 2
-Rarity = Rare
-SetFontSize 50
-SetTextColor 255 255 119 250
-SetBorderColor 255 255 0 250
-MinimapIcon 0 Red Circle
-SetFontSize 50
-SetTextColor 0 200 100 150
+#Show
+#Sockets = 2
+#Rarity = Rare
+#SetFontSize 50
+#SetTextColor 255 255 119 250
+#SetBorderColor 255 255 0 250
+#MinimapIcon 0 Red Circle
+#SetFontSize 50
+#SetTextColor 0 200 100 150
 
 Show
 Sockets = 1
