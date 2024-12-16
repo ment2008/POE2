@@ -318,32 +318,14 @@ SetBackgroundColor 0 0 0 250
 SetBorderColor 0 0 0 250
 SetFontSize 50
 
-Show
+Hide
 Class = Waystones
-BaseType == "Waystone (Tier 11)" "Waystone (Tier 12)" "Waystone (Tier 13)" "Waystone (Tier 14)" "Waystone (Tier 15)"
+WaystoneTier <= 10
 MinimapIcon 0 White Circle
 SetFontSize 50
 SetBorderColor 255 0 0 255
 SetTextColor 255 255 255 250
 PlayAlertSound 6 150
-
-Hide
-Class = Waystones
-BaseType == "Waystone (Tier 6)" "Waystone (Tier 7)" "Waystone (Tier 8)" "Waystone (Tier 9)" "Waystone (Tier 10)"
-#MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-#PlayAlertSound 6 150
-
-Hide
-Class = Waystones
-BaseType == "Waystone (Tier 1)" "Waystone (Tier 2)" "Waystone (Tier 3)" "Waystone (Tier 4)" "Waystone (Tier 5)"
-#MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-#PlayAlertSound 6 150
 
 Show
 Class = Waystones
