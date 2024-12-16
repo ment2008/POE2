@@ -150,16 +150,6 @@ SetBackgroundColor 255 255 204 150
 SetBorderColor 255 255 255 250
 
 Show
-Class = Map Fragments
-PlayEffect Red
-MinimapIcon 0 Red Circle
-SetFontSize 50
-SetTextColor 200 0 0 250
-SetBackgroundColor 255 255 204 150
-SetBorderColor 255 255 255 250
-PlayAlertSound 7 200
-
-Show
 BaseType = Uncut Support Gem
 MinimapIcon 0 Yellow Circle
 SetFontSize 50
@@ -319,33 +309,6 @@ SetBorderColor 0 0 0 250
 SetFontSize 50
 
 Show
-Class = Waystones
-BaseType == "Waystone (Tier 11)" "Waystone (Tier 12)" "Waystone (Tier 13)" "Waystone (Tier 14)" "Waystone (Tier 15)"
-MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 6 150
-
-Show
-Class = Waystones
-BaseType == "Waystone (Tier 6)" "Waystone (Tier 7)" "Waystone (Tier 8)" "Waystone (Tier 9)" "Waystone (Tier 10)"
-MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 6 150
-
-Show
-Class = Waystones
-BaseType == "Waystone (Tier 1)" "Waystone (Tier 2)" "Waystone (Tier 3)" "Waystone (Tier 4)" "Waystone (Tier 5)"
-MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 6 150
-
-Show
 Rarity = Unique
 Class = Waystones
 #MapTier >= 15
@@ -404,6 +367,15 @@ SetTextColor 255 255 255 250
 PlayAlertSound 6 150
 
 Show
+Class = Waystones
+WaystoneTier >= 0
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+SetTextColor 255 255 255 250
+PlayAlertSound 6 150
+
+Show
 Class = Tablet
 SetFontSize 50
 SetBackgroundColor 175 96 37 200
@@ -431,6 +403,16 @@ Show
 Class = Charms
 SetFontSize 30
 SetBorderColor 255 255 255 250
+
+Show
+Class = Map Fragments
+PlayEffect Red
+MinimapIcon 0 Red Circle
+SetFontSize 50
+SetTextColor 200 0 0 250
+SetBackgroundColor 255 255 204 150
+SetBorderColor 255 255 255 250
+PlayAlertSound 7 200
 
 Hide
 Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
