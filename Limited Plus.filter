@@ -132,14 +132,14 @@ BaseType == Gold
 StackSize >= 1000
 #PlayEffect Yellow
 SetFontSize 30
-SetTextColor 255 255 204 150
+SetTextColor 255 255 204 180
 SetBackgroundColor 255 255 255 0
 
 Show
 BaseType == Gold
 #PlayEffect Yellow Temp
 SetFontSize 30
-SetTextColor 255 255 204 150
+SetTextColor 255 255 204 180
 SetBackgroundColor 255 255 255 0
 
 Show
