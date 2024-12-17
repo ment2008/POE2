@@ -70,15 +70,22 @@ SetBackgroundColor 255 255 255 150
 PlayAlertSound 11 100
 
 Show
-BaseType "Orb of Alteration" "Blacksmith's Whetstone" "Armourer's Scrap"
+BaseType "Orb of Alteration"
 MinimapIcon 0 Yellow Circle
 PlayEffect Yellow
 SetFontSize 50
 SetBackgroundColor 0 0 0 250
 
 Show
+BaseType "Blacksmith's Whetstone" "Armourer's Scrap"
+MinimapIcon 0 Yellow Circle
+PlayEffect Yellow
+SetFontSize 50
+SetBackgroundColor 0 0 0 250
+
+Hide
 BaseType "Orb of Augmentation" "Orb of Transmutation"
-PlayEffect Yellow Temp
+#PlayEffect Yellow Temp
 SetFontSize 50
 SetBackgroundColor 0 0 0 250
 
