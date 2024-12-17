@@ -128,17 +128,19 @@ SetBorderColor 255 255 255 250
 
 Show
 BaseType == Gold
-MinimapIcon 0 Yellow Circle
+#MinimapIcon 0 Yellow Circle
 StackSize >= 1000
-PlayEffect Yellow
-SetFontSize 50
-SetTextColor 255 255 204 150
+#PlayEffect Yellow
+SetFontSize 30
+SetTextColor 255 255 204 80
+SetBackgroundColor 255 255 255 0
 
 Show
 BaseType == Gold
-PlayEffect Yellow Temp
-SetFontSize 50
-SetTextColor 255 255 204 150
+#PlayEffect Yellow Temp
+SetFontSize 30
+SetTextColor 255 255 204 80
+SetBackgroundColor 255 255 255 0
 
 Show
 Class = Currency
