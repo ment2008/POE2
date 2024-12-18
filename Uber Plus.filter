@@ -4,8 +4,8 @@
 ### 
 ### 
 ### Hidden Items:
-### Orb of Augmentation, Orb of Transmutation, Scroll of Wisdom, Uncut Support Gems, Flasks,Waystones Tier1-12,
-### Magic/White Rarirty - Boots, Gloves, Helmets, Body Armours, Crossbows, Bows, Two Hand Maces, Quarterstaves, Staves, Wands, Shields, Foci, One Hand Maces, Quivers, Sceptres
+### Orb of Augmentation, Orb of Transmutation, Scroll of Wisdom, Uncut Support Gems, Flasks, Waystones Tier1-12,
+### Magic/White Rarirty - Boots, Gloves, Helmets, Crossbows, Bows, Two Hand Maces, Quarterstaves, Staves, Wands, Shields, Foci, One Hand Maces, Quivers, Sceptres
 ### Rare Rarity - Body Armours, Crossbows, Bows, Two Hand Maces, Staves, Shields, One Hand Maces
 ###
 ### 
@@ -80,6 +80,15 @@ SetTextColor 255 255 0 255
 SetBorderColor 100 150 255 255
 SetBackgroundColor 255 255 255 150
 PlayAlertSound 11 100
+
+Show
+Class = "Currency"
+BaseType "Simulacrum Splinter" "Breach Splinter"
+MinimapIcon 0 Yellow Circle
+SetTextColor 108 221 187 220
+SetBackgroundColor 0 0 0 250
+SetBorderColor 76 215 255
+SetFontSize 50
 
 Show
 BaseType "Orb of Alteration"
@@ -448,7 +457,7 @@ SetFontSize 30
 SetBorderColor 255 255 255 250
 
 Hide
-Class ==  "Bows" "Crossbows" "Two Hand Maces" "Quarterstaves" "Staves" "Shields" "One Hand Maces"
+Class == "Crossbows" "Bows" "Crossbows" "Two Hand Maces" "Quarterstaves" "Staves" "Shields" "One Hand Maces"
 Rarity = Rare
 SetFontSize 20
 SetTextColor 255 255 119 250
