@@ -290,10 +290,39 @@ SetTextColor 0 40 222 170
 SetBackgroundColor 0 0 0 250
 
 Show
-Rarity = Rare
+Class = Waystones
+Rarity >= Normal
+WaystoneTier >= 14
+MinimapIcon 0 White Circle
+PlayEffect Red
 SetFontSize 50
-SetTextColor 255 255 119 250
-SetBorderColor 255 255 0 250
+SetBorderColor 255 0 0 255
+PlayAlertSound 6 150
+
+Show
+Class = Waystones
+Rarity >= Normal
+WaystoneTier >= 11
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+PlayAlertSound 6 100
+
+Show
+Class = Waystones
+Rarity >= Normal
+WaystoneTier >= 1
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+PlayAlertSound 6 80
+
+Show
+Class = Waystones
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+PlayAlertSound 6 80
 
 Show
 Class "Rings" "Amulets" "Belts"
@@ -370,12 +399,30 @@ PlayAlertSound 6 150
 
 Show
 Class = Waystones
-WaystoneTier >= 0
+Rarity >= Normal
+WaystoneTier >= 14
+MinimapIcon 0 Red Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+PlayAlertSound 6 140
+
+Show
+Class = Waystones
+Rarity >= Normal
+WaystoneTier >= 11
 MinimapIcon 0 White Circle
 SetFontSize 50
 SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 6 150
+PlayAlertSound 6 70
+
+Show
+Class = Waystones
+Rarity >= Normal
+WaystoneTier >= 1
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+PlayAlertSound 6 60
 
 Show
 Class = Tablet
@@ -415,6 +462,12 @@ SetTextColor 200 0 0 250
 SetBackgroundColor 255 255 204 150
 SetBorderColor 255 255 255 250
 PlayAlertSound 7 200
+
+Show
+Rarity = Rare
+SetFontSize 50
+SetTextColor 255 255 119 250
+SetBorderColor 255 255 0 250
 
 Hide
 Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
