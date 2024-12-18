@@ -447,7 +447,7 @@ SetFontSize 30
 SetBorderColor 255 255 255 250
 
 Hide
-Class == "Body Armours" "Crossbows" "Bows" "Crossbows" "Two Hand Maces" "Quarterstaves" "Staves" "Shields" "One Hand Maces"
+Class ==  "Bows" "Crossbows" "Two Hand Maces" "Quarterstaves" "Staves" "Shields" "One Hand Maces"
 Rarity = Rare
 SetFontSize 20
 SetTextColor 255 255 119 250
