@@ -1,0 +1,488 @@
+# POE 2 Ment's Item Filters Uber Plus #
+# https://www.pathofexile.com/account/view-profile/MENT-6466/item-filters
+#
+### 
+### 
+### Hidden Items:
+### Orb of Augmentation, Orb of Transmutation, Scroll of Wisdom, Uncut Support Gems, Flasks,Waystones Tier1-12,
+### Magic/White Rarirty - Boots, Gloves, Helmets, Body Armours, Crossbows, Bows, Two Hand Maces, Quarterstaves, Staves, Wands, Shields, Foci, One Hand Maces, Quivers, Sceptres
+### Rare Rarity - Body Armours, Crossbows, Bows, Two Hand Maces, Staves, Shields, One Hand Maces
+###
+### 
+### 
+###
+### 
+### 
+###
+### 
+### 
+###
+### 
+### 
+###
+### 
+### 
+### 
+### 
+### 
+### 
+### 
+# -----------------------------------------------------------------------------------------------------------
+
+Show
+BaseType "Mirror of Kalandra"
+MinimapIcon 0 Purple Star
+PlayEffect Purple
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBackgroundColor 255 0 255 250
+SetBorderColor 0 0 0
+PlayAlertSound 8 200
+
+Show
+BaseType "Divine Orb" "Greater Jeweller's Orb" "Perfect Jeweller's Orb"
+MinimapIcon 0 Purple Star
+PlayEffect Purple
+SetFontSize 50
+SetTextColor 0 0 0
+SetBackgroundColor 255 0 255 250
+SetBorderColor 0 0 0
+PlayAlertSound 8 200
+
+Show
+Class = "Stackable Currency"
+BaseType "Distilled Suffering" "Distilled Fear" "Distilled Despair" "Distilled Disgust"
+MinimapIcon 0 Purple Star
+PlayEffect Purple
+SetFontSize 50
+SetTextColor 0 0 0
+SetBackgroundColor 255 0 255 250
+SetBorderColor 0 0 0
+PlayAlertSound 8 200
+
+Show
+BaseType "Cowardly Fate" "Deadly Fate" "Victorious Fate"
+MinimapIcon 0 Purple Star
+PlayEffect Purple
+SetFontSize 50
+SetTextColor 255 100 0 255
+SetBorderColor 100 100 255 255
+SetBackgroundColor 255 255 255 150
+PlayAlertSound 12 200
+
+Show
+Class = Currency
+BaseType = "Regal Orb" "Orb of Alchemy" "Exalted Orb" "Jeweller" "Orb of Annulment" "Orb of Chance" "Exotic Coinage"
+PlayEffect Yellow
+SetFontSize 50
+SetTextColor 255 255 0 255
+SetBorderColor 100 150 255 255
+SetBackgroundColor 255 255 255 150
+PlayAlertSound 11 100
+
+Show
+BaseType "Orb of Alteration"
+MinimapIcon 0 Yellow Circle
+PlayEffect Yellow
+SetFontSize 50
+SetBackgroundColor 0 0 0 250
+
+Show
+BaseType "Blacksmith's Whetstone" "Armourer's Scrap"
+MinimapIcon 0 Yellow Circle
+PlayEffect Yellow
+SetFontSize 50
+SetBackgroundColor 0 0 0 250
+
+Hide
+BaseType "Orb of Augmentation" "Orb of Transmutation"
+#PlayEffect Yellow Temp
+SetFontSize 50
+SetBackgroundColor 0 0 0 250
+
+Hide
+BaseType "Scroll of Wisdom"
+#PlayEffect White Temp
+SetFontSize 40
+SetBackgroundColor 0 0 0 250
+
+Show
+BaseType "Soul Core" "Timeless"
+MinimapIcon 0 Red Circle
+PlayEffect Red
+SetFontSize 50
+SetTextColor 150 0 0 250
+SetBackgroundColor 255 255 204 200
+SetBorderColor 255 0 0 250
+
+Show
+Class = Socketable
+BaseType "Soul"
+MinimapIcon 0 Red Circle
+PlayEffect Red
+SetFontSize 50
+SetTextColor 150 0 0 250
+SetBackgroundColor 255 255 204 200
+SetBorderColor 255 0 0 250
+
+Show
+Class = Socketable
+BaseType "Rune"
+MinimapIcon 1 Yellow Circle
+PlayEffect Yellow Temp
+SetFontSize 50
+SetTextColor 51 255 255 200
+SetBackgroundColor 51 153 255 120
+SetBorderColor 255 255 204 150
+
+Show
+Class = Socketable
+MinimapIcon 0 Red Circle
+PlayEffect Red
+SetFontSize 50
+SetTextColor 150 0 0 250
+SetBackgroundColor 255 255 204 200
+SetBorderColor 255 0 0 250
+
+Show
+Class = Trial Coins
+PlayEffect Yellow
+MinimapIcon 0 Red Circle
+SetFontSize 50
+SetTextColor 0 80 0 250
+SetBackgroundColor 255 255 204 150
+SetBorderColor 255 255 255 250
+
+Show
+BaseType == Gold
+#MinimapIcon 0 Yellow Circle
+StackSize >= 1000
+#PlayEffect Yellow
+SetFontSize 30
+SetTextColor 255 255 204 180
+SetBackgroundColor 255 255 255 0
+
+Show
+BaseType == Gold
+#PlayEffect Yellow Temp
+SetFontSize 30
+SetTextColor 255 255 204 180
+SetBackgroundColor 255 255 255 0
+
+Show
+Class = Currency
+PlayEffect Yellow
+MinimapIcon 0 Yellow Circle
+SetFontSize 50
+SetTextColor 0 0 0 250
+SetBackgroundColor 255 255 204 150
+SetBorderColor 255 255 255 250
+
+Show
+Class = Map Fragments
+PlayEffect Red
+MinimapIcon 0 Red Circle
+SetFontSize 50
+SetTextColor 200 0 0 250
+SetBackgroundColor 255 255 204 150
+SetBorderColor 255 255 255 250
+PlayAlertSound 7 200
+
+Show
+BaseType "Uncut Spirit Gem"
+ItemLevel >= 19
+MinimapIcon 0 Red Circle
+SetFontSize 50
+SetTextColor 200 100 0 250
+SetBackgroundColor 255 255 204 200
+
+Show
+BaseType "Uncut Spirit Gem"
+MinimapIcon 0 Yellow Circle
+SetFontSize 50
+SetTextColor 0 100 0 250
+SetBackgroundColor 255 255 204 200
+
+Show
+BaseType == "Uncut Skill Gem"
+ItemLevel >= 19
+MinimapIcon 0 Red Circle
+SetFontSize 50
+SetTextColor 200 100 0 250
+SetBackgroundColor 255 255 204 200
+
+Show
+BaseType == "Uncut Skill Gem"
+MinimapIcon 0 Yellow Circle
+SetFontSize 40
+SetTextColor 0 100 0 250
+SetBackgroundColor 255 255 204 150
+
+Hide
+BaseType "Uncut Support Gem"
+#MinimapIcon 0 Yellow Circle
+SetFontSize 40
+SetTextColor 0 100 0 250
+SetBackgroundColor 255 255 204 200
+
+Show
+Rarity = Unique
+SetFontSize 50
+SetTextColor 175 96 37 250
+SetBorderColor 255 0 0 250
+PlayEffect Brown
+
+Show
+Class = Quest Items
+SetFontSize 50
+SetBorderColor 0 191 0 200
+
+Show
+Class = Jewels
+Rarity = Magic
+SetFontSize 50
+SetTextColor 50 150 100 250
+SetBorderColor 255 255 255 250
+
+#Show
+#Sockets = 3
+#Rarity = Rare
+#SetFontSize 50
+#SetTextColor 255 255 119 250
+#SetBorderColor 255 255 0 250
+#MinimapIcon 0 Red Circle
+#SetFontSize 50
+#SetTextColor 0 200 100 150
+
+#Show
+#Sockets = 2
+#Rarity = Rare
+#SetFontSize 50
+#SetTextColor 255 255 119 250
+#SetBorderColor 255 255 0 250
+#MinimapIcon 0 Red Circle
+#SetFontSize 50
+#SetTextColor 0 200 100 150
+
+#Show
+#Sockets = 1
+#Rarity = Rare
+#SetFontSize 50
+#SetTextColor 255 255 119 250
+#SetBorderColor 255 255 0 250
+#MinimapIcon 0 Red Circle
+#SetFontSize 50
+#SetTextColor 0 200 100 150
+
+Show
+Rarity = Normal
+BaseType = "Expert Feathered Tiara"
+ItemLevel >= 79
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBorderColor 255 0 0 250
+
+Show
+Rarity = Normal
+BaseType = "Expert Hexer's Robe" "Expert Intricate Gloves"
+ItemLevel >= 79
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBorderColor 255 0 0 250
+
+Show
+Rarity = Normal
+BaseType = "Rattling Sceptre"
+ItemLevel >= 78
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBorderColor 255 0 0 250
+
+Hide
+Sockets = 2
+Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
+Rarity = Magic
+#MinimapIcon 0 Red Circle
+SetFontSize 50
+SetTextColor 0 200 100 150
+
+Hide
+Sockets = 2
+Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
+Rarity = Normal
+#MinimapIcon 0 Red Circle
+SetFontSize 50
+SetTextColor 0 200 100 150
+
+Hide
+Sockets = 1
+Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
+Rarity = Magic
+#MinimapIcon 0 Red Circle
+SetFontSize 50
+SetTextColor 0 200 100 150
+
+Hide
+Sockets = 1
+Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
+Rarity = Normal
+#MinimapIcon 0 Red Circle
+SetFontSize 50
+SetTextColor 0 200 100 150
+
+Hide
+Class = "Life Flasks"
+Quality >= 10
+SetFontSize 40
+SetTextColor 200 0 0 200
+SetBackgroundColor 0 0 0 250
+
+Hide
+Class = "Life Flasks"
+SetFontSize 40
+SetTextColor 200 0 0 150
+SetBackgroundColor 0 0 0 250
+
+Hide
+Class = "Mana Flasks"
+Quality >= 10
+SetFontSize 40
+SetTextColor 0 40 222 200
+SetBackgroundColor 0 0 0 250
+
+Hide
+Class = "Mana Flasks"
+SetFontSize 40
+SetTextColor 0 40 222 170
+SetBackgroundColor 0 0 0 250
+
+
+
+Show
+Class "Rings" "Amulets" "Belts"
+Rarity = Rare
+MinimapIcon 0 Red Moon
+SetTextColor 231 180 120
+SetBackgroundColor 0 0 0 250
+SetBorderColor 250 50 100 250
+SetFontSize 50
+
+Show
+Class "Rings" "Amulets" "Belts"
+SetBackgroundColor 0 0 0 250
+SetBorderColor 0 0 0 250
+SetFontSize 50
+
+Show
+Class = Waystones
+Rarity >= Normal
+WaystoneTier >= 13
+MinimapIcon 0 White Circle
+PlayEffect Red
+SetFontSize 50
+SetBorderColor 255 0 0 255
+PlayAlertSound 6 150
+
+Hide
+Class = Waystones
+Rarity >= Normal
+WaystoneTier >= 11
+#MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+#PlayAlertSound 6 100
+
+Hide
+Class = Waystones
+Rarity >= Normal
+WaystoneTier >= 1
+#MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+#PlayAlertSound 6 80
+
+Hide
+Class = Waystones
+#MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+#PlayAlertSound 6 80
+
+Show
+Class = Inscribed Ultimatum
+#MapTier >= 15
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+SetTextColor 255 255 255 250
+PlayAlertSound 6 150
+
+Show
+Class = Tablet
+SetFontSize 50
+SetBackgroundColor 175 96 37 200
+SetBorderColor 250 100 50 250
+SetTextColor 255 255 255 220
+MinimapIcon 1 Yellow Square
+PlayEffect Yellow
+
+Show
+BaseType "Expedition Logbook"
+PlayEffect Green
+MinimapIcon 1 Yellow Star
+PlayAlertSound 4 200
+SetFontSize 50
+SetTextColor 255 255 150 250
+SetBackgroundColor 255 0 255 130
+SetBorderColor 255 255 150
+
+Show
+Class = Relics
+SetFontSize 50
+SetBackgroundColor 0 0 0 250
+
+Show
+Class = Charms
+SetFontSize 30
+SetBorderColor 255 255 255 250
+
+Hide
+Class == "Body Armours" "Crossbows" "Bows" "Crossbows" "Two Hand Maces" "Quarterstaves" "Staves" "Shields" "One Hand Maces"
+Rarity = Rare
+SetFontSize 20
+SetTextColor 255 255 119 250
+SetBorderColor 255 255 0 250
+
+Show
+Rarity = Rare
+SetFontSize 50
+SetTextColor 255 255 119 250
+SetBorderColor 255 255 0 250
+
+Hide
+Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
+Rarity = Magic
+Quality >= 1
+SetFontSize 40
+SetTextColor 136 136 255 250
+SetBorderColor 0 0 255 250
+
+Hide
+Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
+Rarity = Magic
+SetFontSize 30
+SetTextColor 136 136 255 100
+
+Hide
+Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
+Rarity = Normal
+Quality >= 1
+SetFontSize 30
+SetTextColor 255 255 255 250
+SetBorderColor 255 255 255 250
+
+Hide
+Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
+Rarity = Normal
+SetFontSize 30
+SetTextColor 255 255 255 100
