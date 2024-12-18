@@ -50,6 +50,17 @@ SetBorderColor 0 0 0
 PlayAlertSound 8 200
 
 Show
+Class = "Stackable Currency"
+BaseType "Distilled Suffering" "Distilled Fear" "Distilled Despair" "Distilled Disgust"
+MinimapIcon 0 Purple Star
+PlayEffect Purple
+SetFontSize 50
+SetTextColor 0 0 0
+SetBackgroundColor 255 0 255 250
+SetBorderColor 0 0 0
+PlayAlertSound 8 200
+
+Show
 BaseType "Cowardly Fate" "Deadly Fate" "Victorious Fate"
 MinimapIcon 0 Purple Star
 PlayEffect Purple
@@ -152,11 +163,41 @@ SetBackgroundColor 255 255 204 150
 SetBorderColor 255 255 255 250
 
 Show
-BaseType = Uncut Support Gem
+BaseType "Uncut Spirit Gem"
+ItemLevel >= 19
+MinimapIcon 0 Red Circle
+SetFontSize 50
+SetTextColor 200 100 0 250
+SetBackgroundColor 255 255 204 200
+
+Show
+BaseType "Uncut Spirit Gem"
 MinimapIcon 0 Yellow Circle
 SetFontSize 50
 SetTextColor 0 100 0 250
 SetBackgroundColor 255 255 204 200
+
+Show
+BaseType == "Uncut Skill Gem"
+ItemLevel >= 19
+MinimapIcon 0 Red Circle
+SetFontSize 50
+SetTextColor 200 100 0 250
+SetBackgroundColor 255 255 204 200
+
+Show
+BaseType == "Uncut Skill Gem"
+MinimapIcon 0 Yellow Circle
+SetFontSize 50
+SetTextColor 0 100 0 250
+SetBackgroundColor 255 255 204 200
+
+Show
+BaseType "Uncut Support Gem"
+#MinimapIcon 0 Yellow Circle
+SetFontSize 30
+SetTextColor 255 255 204 150
+SetBackgroundColor 0 0 0 200
 
 Show
 Rarity = Unique
