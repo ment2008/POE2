@@ -234,12 +234,6 @@ SetTextColor 0 40 222 170
 SetBackgroundColor 0 0 0 250
 
 Show
-Rarity = Rare
-SetFontSize 50
-SetTextColor 255 255 119 250
-SetBorderColor 255 255 0 250
-
-Show
 Class "Rings" "Amulets" "Belts"
 Rarity = Rare
 MinimapIcon 0 Red Moon
@@ -255,53 +249,31 @@ SetBorderColor 0 0 0 250
 SetFontSize 50
 
 Show
-Rarity = Unique
 Class = Waystones
-#MapTier >= 15
-MinimapIcon 0 White Circle
+Rarity >= Normal
+WaystoneTier >= 14
+MinimapIcon 0 Red Circle
 SetFontSize 50
 SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 6 150
-
-Show
-Rarity = Rare
-Class = Waystones
-#MapTier >= 15
-MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 6 150
-
-Show
-Rarity = Magic
-Class = Waystones
-#MapTier >= 15
-MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 6 150
-
-Show
-Rarity = Normal
-Class = Waystones
-#MapTier >= 15
-MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 6 150
+PlayAlertSound 6 140
 
 Show
 Class = Waystones
-#MapTier >= 15
+Rarity >= Normal
+WaystoneTier >= 11
 MinimapIcon 0 White Circle
 SetFontSize 50
 SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 6 150
+PlayAlertSound 6 70
+
+Show
+Class = Waystones
+Rarity >= Normal
+WaystoneTier >= 1
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+PlayAlertSound 6 60
 
 Show
 Class = Inscribed Ultimatum
@@ -330,6 +302,12 @@ SetFontSize 50
 SetTextColor 255 255 150 250
 SetBackgroundColor 255 0 255 130
 SetBorderColor 255 255 150
+
+Show
+Rarity = Rare
+SetFontSize 50
+SetTextColor 255 255 119 250
+SetBorderColor 255 255 0 250
 
 Show
 Rarity = Magic
