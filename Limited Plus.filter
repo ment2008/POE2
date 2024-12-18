@@ -82,6 +82,15 @@ SetBackgroundColor 255 255 255 150
 PlayAlertSound 11 100
 
 Show
+Class = "Currency"
+BaseType "Simulacrum Splinter" "Breach Splinter"
+MinimapIcon 0 Yellow Circle
+SetTextColor 108 221 187 220
+SetBackgroundColor 0 0 0 250
+SetBorderColor 76 215 255
+SetFontSize 50
+
+Show
 BaseType "Orb of Alteration" "Blacksmith's Whetstone" "Armourer's Scrap"
 MinimapIcon 0 Yellow Circle
 PlayEffect Yellow
