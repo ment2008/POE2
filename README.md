@@ -52,7 +52,7 @@ Hidden Items:
   
   -Magic/White Rarity:  Boots, Gloves, Helmets, Body Armours, Crossbows, Bows, Two-Hand Maces, Quarterstaves, Staves, Wands, Shields, Foci, One-Hand Maces, Quivers, Sceptres.
   
-  -Rare Rarity: Body Armours, Crossbows, Bows, Two-Hand Maces, Staves, Shields, One-Hand Maces.
+  -Rare Rarity: Crossbows, Bows, Two-Hand Maces, Staves, Shields, One-Hand Maces.
 
 This filter ensures your screen remains clutter-free and focused on the items that truly matter for endgame progression and efficiency!
   
