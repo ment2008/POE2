@@ -207,7 +207,7 @@ BaseType == "Uncut Skill Gem"
 MinimapIcon 0 Yellow Circle
 SetFontSize 40
 SetTextColor 0 100 0 250
-SetBackgroundColor 255 255 204 100
+SetBackgroundColor 255 255 204 150
 
 Hide
 BaseType "Uncut Support Gem"
