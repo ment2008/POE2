@@ -254,12 +254,6 @@ SetTextColor 0 40 222 170
 SetBackgroundColor 0 0 0 250
 
 Show
-Rarity = Rare
-SetFontSize 50
-SetTextColor 255 255 119 250
-SetBorderColor 255 255 0 250
-
-Show
 Class "Rings" "Amulets" "Belts"
 Rarity = Rare
 MinimapIcon 0 Red Moon
@@ -285,43 +279,31 @@ SetTextColor 255 255 255 250
 PlayAlertSound 6 150
 
 Show
-Rarity = Rare
 Class = Waystones
-#MapTier >= 15
-MinimapIcon 0 White Circle
+Rarity >= Normal
+WaystoneTier >= 14
+MinimapIcon 0 Red Circle
 SetFontSize 50
 SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 6 150
-
-Show
-Rarity = Magic
-Class = Waystones
-#MapTier >= 15
-MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 6 150
-
-Show
-Rarity = Normal
-Class = Waystones
-#MapTier >= 15
-MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 6 150
+PlayAlertSound 6 140
 
 Show
 Class = Waystones
-#MapTier >= 15
+Rarity >= Normal
+WaystoneTier >= 11
 MinimapIcon 0 White Circle
 SetFontSize 50
 SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 6 150
+PlayAlertSound 6 70
+
+Show
+Class = Waystones
+Rarity >= Normal
+WaystoneTier >= 1
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+PlayAlertSound 6 60
 
 Show
 Class = Inscribed Ultimatum
@@ -360,6 +342,12 @@ Show
 Class = Charms
 SetFontSize 30
 SetBorderColor 255 255 255 250
+
+Show
+Rarity = Rare
+SetFontSize 50
+SetTextColor 255 255 119 250
+SetBorderColor 255 255 0 250
 
 Hide
 Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
