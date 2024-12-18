@@ -42,4 +42,21 @@ Take your gameplay to the next level with this ultra-streamlined filter, built f
   
   -ES Bases: Highlights top energy shield bases (item level 78-80).
   
+* Uber Plus Filter:
+The Ultimate Loot Filter for Experts!
+This is an enhanced version of the Uber Filter, offering even more refined customization to streamline your gameplay. It’s designed to hide an extensive range of less valuable items, ensuring only the most essential loot stands out.
+
+Hidden Items:
+
+Orb of Augmentation, Orb of Transmutation, Scroll of Wisdom, Uncut Support Gems, Flasks, Waystones (Tier 1-12).
+
+Magic/White Rarity:
+
+Boots, Gloves, Helmets, Body Armours, Crossbows, Bows, Two-Hand Maces, Quarterstaves, Staves, Wands, Shields, Foci, One-Hand Maces, Quivers, Sceptres.
+
+Rare Rarity:
+
+Body Armours, Crossbows, Bows, Two-Hand Maces, Staves, Shields, One-Hand Maces.
+
+This filter ensures your screen remains clutter-free and focused on the items that truly matter for endgame progression and efficiency!
   
