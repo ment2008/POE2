@@ -73,6 +73,7 @@ PlayAlertSound 12 200
 Show
 Class = Currency
 BaseType = "Regal Orb" "Orb of Alchemy" "Exalted Orb" "Jeweller" "Orb of Annulment" "Orb of Chance" "Exotic Coinage"
+MinimapIcon 0 Yellow Circle
 PlayEffect Yellow
 SetFontSize 50
 SetTextColor 255 255 0 255
