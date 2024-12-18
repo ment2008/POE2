@@ -50,6 +50,17 @@ SetBorderColor 0 0 0
 PlayAlertSound 8 200
 
 Show
+Class = "Stackable Currency"
+BaseType "Distilled Suffering" "Distilled Fear" "Distilled Despair" "Distilled Disgust"
+MinimapIcon 0 Purple Star
+PlayEffect Purple
+SetFontSize 50
+SetTextColor 0 0 0
+SetBackgroundColor 255 0 255 250
+SetBorderColor 0 0 0
+PlayAlertSound 8 200
+
+Show
 BaseType "Cowardly Fate" "Deadly Fate" "Victorious Fate"
 MinimapIcon 0 Purple Star
 PlayEffect Purple
@@ -60,8 +71,9 @@ SetBackgroundColor 255 255 255 150
 PlayAlertSound 12 200
 
 Show
-Class = Currency
-BaseType = "Regal Orb" "Orb of Alchemy" "Exalted Orb" "Jeweller" "Orb of Annulment" "Orb of Chance"
+Class = Currency 
+BaseType = "Regal Orb" "Orb of Alchemy" "Exalted Orb" "Jeweller" "Orb of Annulment" "Orb of Chance" "Exotic Coinage"
+MinimapIcon 0 Yellow Circle
 PlayEffect Yellow
 SetFontSize 50
 SetTextColor 255 255 0 255
@@ -87,6 +99,15 @@ BaseType "Scroll of Wisdom"
 PlayEffect White Temp
 SetFontSize 40
 SetBackgroundColor 0 0 0 250
+
+Show
+BaseType "Soul Core" "Timeless"
+MinimapIcon 0 Red Circle
+PlayEffect Red
+SetFontSize 50
+SetTextColor 150 0 0 250
+SetBackgroundColor 255 255 204 200
+SetBorderColor 255 0 0 250
 
 Show
 Class = Socketable
