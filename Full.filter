@@ -99,7 +99,7 @@ SetTextColor 108 221 187 220
 SetBackgroundColor 0 0 0 250
 SetBorderColor 76 215 255
 SetFontSize 50
-PlayAlertSound 16 200
+PlayAlertSound 16 100
 MinimapIcon 0 Yellow Moon
 PlayEffect Yellow
 
@@ -110,7 +110,7 @@ SetTextColor 108 221 187 220
 SetBackgroundColor 0 0 0 250
 SetBorderColor 76 215 255
 SetFontSize 50
-PlayAlertSound 16 200
+PlayAlertSound 16 100
 MinimapIcon 0 Yellow Moon
 PlayEffect Yellow
 
