@@ -72,7 +72,18 @@ PlayAlertSound 12 200
 
 Show
 Class = Currency
-BaseType = "Regal Orb" "Orb of Alchemy" "Exalted Orb" "Jeweller" "Orb of Annulment" "Orb of Chance" "Exotic Coinage"
+BaseType  "Gemcutter's Prism"
+PlayAlertSound 13 250
+PlayEffect Yellow
+MinimapIcon 1 Yellow Star
+SetFontSize 50
+SetTextColor 0 0 0 250
+SetBackgroundColor 255 255 204 150
+SetBorderColor 255 50 0 150
+
+Show
+Class = Currency
+BaseType = "Regal Orb" "Orb of Alchemy" "Exalted Orb" "Jeweller" "Orb of Annulment" "Orb of Chance" "Exotic Coinage" "Gemcutter's Prism"
 MinimapIcon 0 Yellow Circle
 PlayEffect Yellow
 SetFontSize 50
