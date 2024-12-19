@@ -81,6 +81,7 @@ SetTextColor 0 0 0 250
 SetBackgroundColor 255 255 204 150
 SetBorderColor 255 50 0 150
 
+
 Show
 Class = Currency
 BaseType = "Regal Orb" "Orb of Alchemy" "Exalted Orb" "Jeweller" "Orb of Annulment" "Orb of Chance" "Exotic Coinage"
@@ -111,6 +112,17 @@ SetBackgroundColor 0 0 0 250
 SetBorderColor 76 215 255
 SetFontSize 50
 PlayAlertSound 16 100
+MinimapIcon 0 Yellow Moon
+PlayEffect Yellow
+
+Show
+Class "Stackable Currency"
+BaseType "Artifact"
+SetTextColor 108 221 187 220
+SetBackgroundColor 0 0 0 250
+SetBorderColor 76 215 255
+SetFontSize 50
+PlayAlertSound 16 200
 MinimapIcon 0 Yellow Moon
 PlayEffect Yellow
 
