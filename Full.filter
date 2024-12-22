@@ -308,12 +308,6 @@ SetBorderColor 250 50 100 250
 SetFontSize 50
 
 Show
-Class "Rings" "Amulets" "Belts"
-SetBackgroundColor 0 0 0 250
-SetBorderColor 0 0 0 250
-SetFontSize 50
-
-Show
 Class = Waystones
 Rarity >= Normal
 WaystoneTier >= 14
@@ -385,6 +379,12 @@ Show
 Rarity = Magic
 SetFontSize 30
 SetTextColor 136 136 255 100
+
+Show
+Class "Rings" "Amulets" "Belts"
+SetBackgroundColor 0 0 0 250
+SetBorderColor 0 0 0 250
+SetFontSize 50
 
 Show
 Rarity = Normal
