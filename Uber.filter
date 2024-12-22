@@ -474,13 +474,13 @@ SetFontSize 50
 SetTextColor 255 255 119 250
 SetBorderColor 255 255 0 250
 
-Show
-Rarity >= Normal
-Class "Wands"
-ItemLevel >= 78
-SetFontSize 50
-SetTextColor 255 255 255 250
-SetBorderColor 255 0 0 250
+#Show
+#Rarity >= Normal
+#Class "Wands"
+#ItemLevel >= 78
+#SetFontSize 50
+#SetTextColor 255 255 255 250
+#SetBorderColor 255 0 0 250
 
 Show
 Rarity "Normal"
