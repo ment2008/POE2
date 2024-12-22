@@ -251,7 +251,7 @@ SetBackgroundColor 255 255 204 200
 Show
 BaseType == "Uncut Skill Gem"
 ItemLevel >= 19
-MinimapIcon 0 Red Circle
+#MinimapIcon 0 Red Circle
 SetFontSize 50
 SetTextColor 200 100 0 250
 SetBackgroundColor 255 255 204 200
