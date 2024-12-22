@@ -290,6 +290,13 @@ SetFontSize 50
 SetTextColor 50 150 100 250
 SetBorderColor 255 255 255 250
 
+Show
+Class "Rings"
+BaseType "Breach Ring"
+SetBackgroundColor 0 0 0 250
+SetBorderColor 255 0 0 250
+SetFontSize 50
+
 #Show
 #Sockets = 3
 #Rarity = Rare
