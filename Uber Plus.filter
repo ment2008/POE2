@@ -283,6 +283,13 @@ SetFontSize 50
 SetBorderColor 0 191 0 200
 
 Show
+Class "Rings"
+BaseType "Breach Ring"
+SetBackgroundColor 0 0 0 250
+SetBorderColor 255 0 0 250
+SetFontSize 50
+
+Show
 Class = Jewels
 Rarity = Magic
 SetFontSize 50
