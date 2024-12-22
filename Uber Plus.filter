@@ -462,6 +462,8 @@ SetBorderColor 250 100 50 250
 SetTextColor 255 255 255 220
 MinimapIcon 1 Yellow Square
 PlayEffect Yellow
+PlayAlertSound 10 180
+
 
 Show
 BaseType "Expedition Logbook"
