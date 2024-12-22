@@ -401,21 +401,13 @@ SetFontSize 40
 SetTextColor 0 40 222 170
 SetBackgroundColor 0 0 0 250
 
-
-
 Show
 Class "Rings" "Amulets" "Belts"
-Rarity = Rare
+Rarity >= Rare
 MinimapIcon 0 Red Moon
 SetTextColor 231 180 120
 SetBackgroundColor 0 0 0 250
 SetBorderColor 250 50 100 250
-SetFontSize 50
-
-Show
-Class "Rings" "Amulets" "Belts"
-SetBackgroundColor 0 0 0 250
-SetBorderColor 0 0 0 250
 SetFontSize 50
 
 Show
@@ -503,6 +495,28 @@ Rarity = Rare
 SetFontSize 50
 SetTextColor 255 255 119 250
 SetBorderColor 255 255 0 250
+
+Show
+Rarity >= Normal
+Class "Wands"
+ItemLevel >= 78
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBorderColor 255 0 0 250
+
+Show
+Rarity "Normal"
+BaseType "Stellar Amulet"
+ItemLevel >= 43
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBorderColor 255 0 0 250
+
+Hide
+Class "Rings" "Amulets" "Belts"
+SetBackgroundColor 0 0 0 250
+SetBorderColor 0 0 0 250
+SetFontSize 50
 
 Hide
 Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
