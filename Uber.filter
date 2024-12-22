@@ -422,7 +422,7 @@ SetFontSize 50
 Show
 Class = Waystones
 Rarity >= Normal
-WaystoneTier >= 13
+WaystoneTier >= 11
 MinimapIcon 0 White Circle
 PlayEffect Red
 SetFontSize 50
@@ -432,7 +432,7 @@ PlayAlertSound 10 150
 Hide
 Class = Waystones
 Rarity >= Normal
-WaystoneTier >= 11
+WaystoneTier >= 10
 #MinimapIcon 0 White Circle
 SetFontSize 50
 SetBorderColor 255 0 0 255
