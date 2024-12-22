@@ -370,6 +370,13 @@ SetTextColor 255 255 119 250
 SetBorderColor 255 255 0 250
 
 Show
+Class "Rings"
+BaseType "Breach Ring"
+SetBackgroundColor 0 0 0 250
+SetBorderColor 255 0 0 250
+SetFontSize 50
+
+Show
 Rarity = Magic
 Quality >= 1
 SetFontSize 40
