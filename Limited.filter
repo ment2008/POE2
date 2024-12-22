@@ -328,12 +328,6 @@ SetBorderColor 250 50 100 250
 SetFontSize 50
 
 Show
-Class "Rings" "Amulets" "Belts"
-SetBackgroundColor 0 0 0 250
-SetBorderColor 0 0 0 250
-SetFontSize 50
-
-Show
 Rarity = Unique
 Class = Waystones
 #MapTier >= 15
@@ -429,28 +423,10 @@ SetFontSize 30
 SetTextColor 136 136 255 100
 
 Show
-Rarity = Normal
-BaseType = "Expert Feathered Tiara"
-ItemLevel >= 79
+Class "Rings" "Amulets" "Belts"
+SetBackgroundColor 0 0 0 250
+SetBorderColor 0 0 0 250
 SetFontSize 50
-SetTextColor 255 255 255 250
-SetBorderColor 255 0 0 250
-
-Show
-Rarity = Normal
-BaseType = "Expert Hexer's Robe" "Expert Intricate Gloves"
-ItemLevel >= 79
-SetFontSize 50
-SetTextColor 255 255 255 250
-SetBorderColor 255 0 0 250
-
-Show
-Rarity = Normal
-BaseType = "Rattling Sceptre"
-ItemLevel >= 78
-SetFontSize 50
-SetTextColor 255 255 255 250
-SetBorderColor 255 0 0 250
 
 Hide
 Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
