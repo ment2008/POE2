@@ -320,7 +320,7 @@ WaystoneTier >= 14
 MinimapIcon 0 Red Circle
 SetFontSize 50
 SetBorderColor 255 0 0 255
-PlayAlertSound 6 140
+PlayAlertSound 10 140
 
 Show
 Class = Waystones
@@ -329,7 +329,7 @@ WaystoneTier >= 11
 MinimapIcon 0 White Circle
 SetFontSize 50
 SetBorderColor 255 0 0 255
-PlayAlertSound 6 70
+PlayAlertSound 10 70
 
 Show
 Class = Waystones
@@ -338,7 +338,7 @@ WaystoneTier >= 1
 MinimapIcon 0 White Circle
 SetFontSize 50
 SetBorderColor 255 0 0 255
-PlayAlertSound 6 60
+PlayAlertSound 10 60
 
 Show
 Class = Inscribed Ultimatum
@@ -347,7 +347,7 @@ MinimapIcon 0 White Circle
 SetFontSize 50
 SetBorderColor 255 0 0 255
 SetTextColor 255 255 255 250
-PlayAlertSound 6 150
+PlayAlertSound 10 150
 
 Show
 Class = Tablet
