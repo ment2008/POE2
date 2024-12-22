@@ -259,7 +259,7 @@ SetBackgroundColor 255 255 204 200
 
 Show
 BaseType == "Uncut Skill Gem"
-MinimapIcon 0 Yellow Circle
+#MinimapIcon 0 Yellow Circle
 SetFontSize 40
 SetTextColor 0 100 0 250
 SetBackgroundColor 255 255 204 150
@@ -463,6 +463,7 @@ SetBorderColor 250 100 50 250
 SetTextColor 255 255 255 220
 MinimapIcon 1 Yellow Square
 PlayEffect Yellow
+PlayAlertSound 10 180
 
 Show
 BaseType "Expedition Logbook"
