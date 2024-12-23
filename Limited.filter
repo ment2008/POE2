@@ -71,6 +71,16 @@ SetBackgroundColor 255 255 255 150
 PlayAlertSound 12 200
 
 Show
+Class "Pinnacle Keys"
+MinimapIcon 0 Purple Star
+PlayEffect Purple
+SetFontSize 50
+SetTextColor 0 0 0
+SetBackgroundColor 255 0 255 250
+SetBorderColor 0 0 0
+PlayAlertSound 8 200
+
+Show
 Class = Currency
 BaseType  "Gemcutter's Prism"
 PlayAlertSound 13 250
