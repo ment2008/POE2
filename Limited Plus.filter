@@ -50,6 +50,16 @@ SetBorderColor 0 0 0
 PlayAlertSound 8 200
 
 Show
+Class "Pinnacle Keys"
+MinimapIcon 0 Purple Star
+PlayEffect Purple
+SetFontSize 50
+SetTextColor 0 0 0
+SetBackgroundColor 255 0 255 250
+SetBorderColor 0 0 0
+PlayAlertSound 8 200
+
+Show
 Class = "Stackable Currency"
 BaseType "Distilled Suffering" "Distilled Fear" "Distilled Despair" "Distilled Disgust"
 MinimapIcon 0 Purple Star
