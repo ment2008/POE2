@@ -71,25 +71,15 @@ SetBackgroundColor 255 255 255 150
 PlayAlertSound 12 200
 
 Show
-Class "Pinnacle Keys"
-MinimapIcon 0 Purple Star
-PlayEffect Purple
-SetFontSize 50
-SetTextColor 0 0 0
-SetBackgroundColor 255 0 255 250
-SetBorderColor 0 0 0
-PlayAlertSound 8 200
-
-Show
 Class = Currency
-BaseType  "Gemcutter's Prism"
-PlayAlertSound 13 250
+BaseType  "Gemcutter's Prism" "Vaal Orb" "Chaos Orb"
 PlayEffect Yellow
-MinimapIcon 1 Yellow Star
+MinimapIcon 0 Yellow Star
 SetFontSize 50
-SetTextColor 0 0 0 250
-SetBackgroundColor 255 255 204 150
-SetBorderColor 255 50 0 150
+SetTextColor 255 255 204 250
+SetBackgroundColor 200 0 100 150
+SetBorderColor 255 255 255 255
+PlayAlertSound 13 250
 
 Show
 Class = Currency 
@@ -418,6 +408,22 @@ Rarity = Rare
 SetFontSize 50
 SetTextColor 255 255 119 250
 SetBorderColor 255 255 0 250
+
+Show
+Rarity "Normal"
+BaseType "Utility Belt"
+ItemLevel >= 82
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBorderColor 255 0 0 250
+
+Show
+Rarity "Normal"
+BaseType "Stellar Amulet"
+ItemLevel >= 43
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBorderColor 255 0 0 250
 
 Show
 Class "Rings"
