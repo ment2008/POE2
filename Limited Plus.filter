@@ -1,4 +1,4 @@
-# POE 2 Ment's Item Filters Limited Plus #
+# POE 2 Ment's Item Filters Limited #
 # https://www.pathofexile.com/account/view-profile/MENT-6466/item-filters
 #
 ### 
@@ -50,16 +50,6 @@ SetBorderColor 0 0 0
 PlayAlertSound 8 200
 
 Show
-Class "Pinnacle Keys"
-MinimapIcon 0 Purple Star
-PlayEffect Purple
-SetFontSize 50
-SetTextColor 0 0 0
-SetBackgroundColor 255 0 255 250
-SetBorderColor 0 0 0
-PlayAlertSound 8 200
-
-Show
 Class = "Stackable Currency"
 BaseType "Distilled Suffering" "Distilled Fear" "Distilled Despair" "Distilled Disgust"
 MinimapIcon 0 Purple Star
@@ -82,17 +72,17 @@ PlayAlertSound 12 200
 
 Show
 Class = Currency
-BaseType  "Gemcutter's Prism"
-PlayAlertSound 13 250
+BaseType  "Gemcutter's Prism" "Vaal Orb" "Chaos Orb"
 PlayEffect Yellow
-MinimapIcon 1 Yellow Star
+MinimapIcon 0 Yellow Star
 SetFontSize 50
-SetTextColor 0 0 0 250
-SetBackgroundColor 255 255 204 150
-SetBorderColor 255 50 0 150
+SetTextColor 255 255 204 250
+SetBackgroundColor 200 0 100 150
+SetBorderColor 255 255 255 255
+PlayAlertSound 13 250
 
 Show
-Class = Currency
+Class = Currency 
 BaseType = "Regal Orb" "Orb of Alchemy" "Exalted Orb" "Jeweller" "Orb of Annulment" "Orb of Chance" "Exotic Coinage"
 MinimapIcon 0 Yellow Circle
 PlayEffect Yellow
@@ -148,9 +138,9 @@ PlayEffect Yellow Temp
 SetFontSize 50
 SetBackgroundColor 0 0 0 250
 
-Hide
+Show
 BaseType "Scroll of Wisdom"
-#PlayEffect White Temp
+PlayEffect White Temp
 SetFontSize 40
 SetBackgroundColor 0 0 0 250
 
@@ -203,19 +193,17 @@ SetBorderColor 255 255 255 250
 
 Show
 BaseType == Gold
-#MinimapIcon 0 Yellow Circle
+MinimapIcon 0 Yellow Circle
 StackSize >= 1000
-#PlayEffect Yellow
-SetFontSize 30
-SetTextColor 255 255 204 180
-SetBackgroundColor 255 255 255 0
+PlayEffect Yellow
+SetFontSize 50
+SetTextColor 255 255 204 150
 
 Show
 BaseType == Gold
-#PlayEffect Yellow Temp
-SetFontSize 30
-SetTextColor 255 255 204 180
-SetBackgroundColor 255 255 255 0
+PlayEffect Yellow Temp
+SetFontSize 50
+SetTextColor 255 255 204 150
 
 Show
 Class = Currency
@@ -227,41 +215,21 @@ SetBackgroundColor 255 255 204 150
 SetBorderColor 255 255 255 250
 
 Show
-BaseType "Uncut Spirit Gem"
-ItemLevel >= 19
+Class = Map Fragments
+PlayEffect Red
 MinimapIcon 0 Red Circle
 SetFontSize 50
-SetTextColor 200 100 0 250
-SetBackgroundColor 255 255 204 200
+SetTextColor 200 0 0 250
+SetBackgroundColor 255 255 204 150
+SetBorderColor 255 255 255 250
+PlayAlertSound 7 200
 
 Show
-BaseType "Uncut Spirit Gem"
+BaseType = Uncut Support Gem
 MinimapIcon 0 Yellow Circle
 SetFontSize 50
 SetTextColor 0 100 0 250
 SetBackgroundColor 255 255 204 200
-
-Show
-BaseType == "Uncut Skill Gem"
-ItemLevel >= 19
-MinimapIcon 0 Red Circle
-SetFontSize 50
-SetTextColor 200 100 0 250
-SetBackgroundColor 255 255 204 200
-
-Show
-BaseType == "Uncut Skill Gem"
-MinimapIcon 0 Yellow Circle
-SetFontSize 50
-SetTextColor 0 100 0 250
-SetBackgroundColor 255 255 204 200
-
-Show
-BaseType "Uncut Support Gem"
-#MinimapIcon 0 Yellow Circle
-SetFontSize 30
-SetTextColor 255 255 204 150
-SetBackgroundColor 0 0 0 200
 
 Show
 Rarity = Unique
@@ -292,54 +260,34 @@ MinimapIcon 0 Red Circle
 SetFontSize 50
 SetTextColor 0 200 100 150
 
-#Show
-#Sockets = 2
-#Rarity = Rare
-#SetFontSize 50
-#SetTextColor 255 255 119 250
-#SetBorderColor 255 255 0 250
-#MinimapIcon 0 Red Circle
-#SetFontSize 50
-#SetTextColor 0 200 100 150
-
-#Show
-#Sockets = 1
-#Rarity = Rare
-#SetFontSize 50
-#SetTextColor 255 255 119 250
-#SetBorderColor 255 255 0 250
-#MinimapIcon 0 Red Circle
-#SetFontSize 50
-#SetTextColor 0 200 100 150
-
-Hide
+Show
 Sockets = 2
-Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
-Rarity = Magic
-#MinimapIcon 0 Red Circle
+Rarity = Rare
+SetFontSize 50
+SetTextColor 255 255 119 250
+SetBorderColor 255 255 0 250
+MinimapIcon 0 Red Circle
 SetFontSize 50
 SetTextColor 0 200 100 150
 
-Hide
+Show
+Sockets = 1
+Rarity = Rare
+SetFontSize 50
+SetTextColor 255 255 119 250
+SetBorderColor 255 255 0 250
+MinimapIcon 0 Red Circle
+SetFontSize 50
+SetTextColor 0 200 100 150
+
+Show
 Sockets = 2
-Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
-Rarity = Normal
-#MinimapIcon 0 Red Circle
+MinimapIcon 0 Red Circle
 SetFontSize 50
 SetTextColor 0 200 100 150
 
 Hide
 Sockets = 1
-Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
-Rarity = Magic
-#MinimapIcon 0 Red Circle
-SetFontSize 50
-SetTextColor 0 200 100 150
-
-Hide
-Sockets = 1
-Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
-Rarity = Normal
 #MinimapIcon 0 Red Circle
 SetFontSize 50
 SetTextColor 0 200 100 150
@@ -371,53 +319,12 @@ SetTextColor 0 40 222 170
 SetBackgroundColor 0 0 0 250
 
 Show
-Class = Waystones
-Rarity >= Normal
-WaystoneTier >= 14
-MinimapIcon 0 White Circle
-PlayEffect Red
-SetFontSize 50
-SetBorderColor 255 0 0 255
-PlayAlertSound 10 150
-
-Show
-Class = Waystones
-Rarity >= Normal
-WaystoneTier >= 11
-MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 255 0 0 255
-PlayAlertSound 10 100
-
-Show
-Class = Waystones
-Rarity >= Normal
-WaystoneTier >= 1
-MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 255 0 0 255
-PlayAlertSound 10 80
-
-Show
-Class = Waystones
-MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 255 0 0 255
-PlayAlertSound 10 80
-
-Show
 Class "Rings" "Amulets" "Belts"
 Rarity = Rare
 MinimapIcon 0 Red Moon
 SetTextColor 231 180 120
 SetBackgroundColor 0 0 0 250
 SetBorderColor 250 50 100 250
-SetFontSize 50
-
-Show
-Class "Rings" "Amulets" "Belts"
-SetBackgroundColor 0 0 0 250
-SetBorderColor 0 0 0 250
 SetFontSize 50
 
 Show
@@ -429,54 +336,6 @@ SetFontSize 50
 SetBorderColor 255 0 0 255
 SetTextColor 255 255 255 250
 PlayAlertSound 6 150
-
-Show
-Rarity = Rare
-Class = Waystones
-#MapTier >= 15
-MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 10 150
-
-Show
-Rarity = Magic
-Class = Waystones
-#MapTier >= 15
-MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 10 150
-
-Show
-Rarity = Normal
-Class = Waystones
-#MapTier >= 15
-MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 10 150
-
-Show
-Class = Waystones
-#MapTier >= 15
-MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 10 150
-
-Show
-Class = Inscribed Ultimatum
-#MapTier >= 15
-MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 10 150
 
 Show
 Class = Waystones
@@ -504,6 +363,15 @@ MinimapIcon 0 White Circle
 SetFontSize 50
 SetBorderColor 255 0 0 255
 PlayAlertSound 10 60
+
+Show
+Class = Inscribed Ultimatum
+#MapTier >= 15
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+SetTextColor 255 255 255 250
+PlayAlertSound 10 150
 
 Show
 Class = Tablet
@@ -536,20 +404,26 @@ SetFontSize 30
 SetBorderColor 255 255 255 250
 
 Show
-Class = Map Fragments
-PlayEffect Red
-MinimapIcon 0 Red Circle
-SetFontSize 50
-SetTextColor 200 0 0 250
-SetBackgroundColor 255 255 204 150
-SetBorderColor 255 255 255 250
-PlayAlertSound 7 200
-
-Show
 Rarity = Rare
 SetFontSize 50
 SetTextColor 255 255 119 250
 SetBorderColor 255 255 0 250
+
+Show
+Rarity "Normal"
+BaseType "Utility Belt"
+ItemLevel >= 82
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBorderColor 255 0 0 250
+
+Show
+Rarity "Normal"
+BaseType "Stellar Amulet"
+ItemLevel >= 43
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBorderColor 255 0 0 250
 
 Show
 Class "Rings"
@@ -572,6 +446,12 @@ Rarity = Magic
 SetFontSize 30
 SetTextColor 136 136 255 100
 
+Show
+Class "Rings" "Amulets" "Belts"
+SetBackgroundColor 0 0 0 250
+SetBorderColor 0 0 0 250
+SetFontSize 50
+
 Hide
 Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand Maces" "Staves" "Wands" "Shields" "Foci" "One Hand Maces" "Quivers" "Sceptres"
 Rarity = Normal
@@ -585,3 +465,6 @@ Class = "Boots" "Gloves" "Helmets" "Body Armours" "Crossbows" "Bows" "Two Hand M
 Rarity = Normal
 SetFontSize 30
 SetTextColor 255 255 255 100
+
+
+
