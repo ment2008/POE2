@@ -82,14 +82,14 @@ PlayAlertSound 12 200
 
 Show
 Class = Currency
-BaseType  "Gemcutter's Prism"
-PlayAlertSound 13 250
+BaseType  "Gemcutter's Prism" "Vaal Orb" "Chaos Orb"
 PlayEffect Yellow
-MinimapIcon 1 Yellow Star
+MinimapIcon 0 Yellow Star
 SetFontSize 50
-SetTextColor 0 0 0 250
-SetBackgroundColor 255 255 204 150
-SetBorderColor 255 50 0 150
+SetTextColor 255 255 204 250
+SetBackgroundColor 200 0 100 150
+SetBorderColor 255 255 255 255
+PlayAlertSound 13 250
 
 Show
 Class = Currency
