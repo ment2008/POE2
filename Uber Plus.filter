@@ -50,16 +50,6 @@ SetBorderColor 0 0 0
 PlayAlertSound 8 200
 
 Show
-Class "Pinnacle Keys"
-MinimapIcon 0 Purple Star
-PlayEffect Purple
-SetFontSize 50
-SetTextColor 0 0 0
-SetBackgroundColor 255 0 255 250
-SetBorderColor 0 0 0
-PlayAlertSound 8 200
-
-Show
 Class = "Stackable Currency"
 BaseType "Distilled Suffering" "Distilled Fear" "Distilled Despair" "Distilled Disgust"
 MinimapIcon 0 Purple Star
@@ -82,14 +72,14 @@ PlayAlertSound 12 200
 
 Show
 Class = Currency
-BaseType  "Gemcutter's Prism"
-PlayAlertSound 13 250
+BaseType  "Gemcutter's Prism" "Vaal Orb" "Chaos Orb"
 PlayEffect Yellow
-MinimapIcon 1 Yellow Star
+MinimapIcon 0 Yellow Star
 SetFontSize 50
-SetTextColor 0 0 0 250
-SetBackgroundColor 255 255 204 150
-SetBorderColor 255 50 0 150
+SetTextColor 255 255 204 250
+SetBackgroundColor 200 0 100 150
+SetBorderColor 255 255 255 255
+PlayAlertSound 13 250
 
 Show
 Class = Currency
@@ -154,6 +144,16 @@ BaseType "Orb of Augmentation" "Orb of Transmutation"
 #PlayEffect Yellow Temp
 SetFontSize 50
 SetBackgroundColor 0 0 0 250
+
+Hide
+Class = Currency
+BaseType = "Regal Shard"
+#MinimapIcon 0 Yellow Circle
+#PlayEffect Yellow
+SetFontSize 50
+SetTextColor 255 255 0 255
+SetBorderColor 100 150 255 255
+SetBackgroundColor 255 255 255 150
 
 Hide
 BaseType "Scroll of Wisdom"
@@ -501,11 +501,26 @@ SetBorderColor 255 255 0 250
 
 Show
 Rarity "Normal"
+BaseType "Utility Belt"
+ItemLevel >= 82
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBorderColor 255 0 0 250
+
+Show
+Rarity "Normal"
 BaseType "Stellar Amulet"
 ItemLevel >= 43
 SetFontSize 50
 SetTextColor 255 255 255 250
 SetBorderColor 255 0 0 250
+
+Show
+Class "Rings"
+BaseType "Breach Ring"
+SetBackgroundColor 0 0 0 250
+SetBorderColor 255 0 0 250
+SetFontSize 50
 
 Hide
 Class "Rings" "Amulets" "Belts"
