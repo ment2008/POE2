@@ -53,11 +53,11 @@ Show
 Class "Pinnacle Keys"
 MinimapIcon 0 White Star
 PlayEffect Yellow
-CustomAlertSound "T5Currency.wav"
 SetFontSize 50
 SetBorderColor 255 255 255 100
 SetBackgroundColor 0 0 0 250
 SetTextColor 100 0 200 250
+PlayAlertSound 8 200
 
 Show
 Class = "Stackable Currency"
