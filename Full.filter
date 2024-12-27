@@ -82,7 +82,7 @@ PlayAlertSound 12 200
 
 Show
 Class = Currency
-BaseType  "Gemcutter's Prism" "Vaal Orb" "Chaos Orb"
+BaseType  "Gemcutter's Prism" "Vaal Orb" "Chaos Orb" "Exalted Orb"
 PlayEffect Yellow
 MinimapIcon 0 Yellow Star
 SetFontSize 50
