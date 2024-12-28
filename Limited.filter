@@ -193,6 +193,23 @@ SetBackgroundColor 255 255 204 200
 SetBorderColor 255 0 0 250
 
 Show
+Class = Inscribed Ultimatum
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+SetTextColor 255 255 255 250
+PlayAlertSound 10 150
+
+Show
+Class "Trial Coins"
+BaseType "Barya"
+MinimapIcon 0 White Circle
+SetFontSize 50
+SetBorderColor 255 0 0 255
+SetTextColor 255 255 255 250
+PlayAlertSound 10 150
+
+Show
 Class = Trial Coins
 PlayEffect Yellow
 MinimapIcon 0 Red Circle
@@ -375,15 +392,6 @@ SetBorderColor 255 0 0 255
 PlayAlertSound 10 60
 
 Show
-Class = Inscribed Ultimatum
-#MapTier >= 15
-MinimapIcon 0 White Circle
-SetFontSize 50
-SetBorderColor 255 0 0 255
-SetTextColor 255 255 255 250
-PlayAlertSound 10 150
-
-Show
 Class = Tablet
 SetFontSize 50
 SetBackgroundColor 175 96 37 200
@@ -418,14 +426,6 @@ Rarity = Rare
 SetFontSize 50
 SetTextColor 255 255 119 250
 SetBorderColor 255 255 0 250
-
-Show
-Rarity "Normal"
-BaseType "Utility Belt"
-ItemLevel >= 82
-SetFontSize 50
-SetTextColor 255 255 255 250
-SetBorderColor 255 0 0 250
 
 Show
 Rarity "Normal"
