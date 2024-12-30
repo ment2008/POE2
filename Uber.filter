@@ -556,6 +556,14 @@ SetBorderColor 255 255 0 250
 
 Show
 Rarity "Normal"
+BaseType "Smuggler Coat"
+ItemLevel >= 57
+SetFontSize 50
+SetTextColor 255 255 255 250
+SetBorderColor 255 0 0 250
+
+Show
+Rarity "Normal"
 BaseType "Heavy Belt"
 ItemLevel >= 50
 SetFontSize 50
